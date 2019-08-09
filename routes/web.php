@@ -16,3 +16,7 @@ Route::get('/', 'Frontend\MainController@indexAction');
 Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
